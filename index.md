@@ -65,4 +65,5 @@ My other recommendation for getting started is to try to implement / run example
 6. Bonus: Visdom - Similar to matplotlib, but is particular useful for live data visualization (as opposed to running visualization after your experiments have complete).
 
 # Resources about python notebooks
-https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
+* https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
+* https://github.com/donnemartin/data-science-ipython-notebooks/blob/master/README.md
