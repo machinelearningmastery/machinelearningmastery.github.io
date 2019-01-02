@@ -63,3 +63,6 @@ My other recommendation for getting started is to try to implement / run example
 4. Jupyter - A nice way to experiment with code in an “interactive notebook”.
 5. Matplotlib (and Pandas) - A nice way to visualize results from experiments.
 6. Bonus: Visdom - Similar to matplotlib, but is particular useful for live data visualization (as opposed to running visualization after your experiments have complete).
+
+# Resources about python notebooks
+https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
