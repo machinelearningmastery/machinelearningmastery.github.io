@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OAuth Redirect Handler</title>
+</head>
+<body>
+    <script>
+        window.onload = function() {
+            // Parse the URL query string
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            const code = urlParams.get('code');
+            
+            if (code) {
+                console.log("Authorization code:", code);
+                // Display the code in the UI for demonstration purposes
+                document.body.appendChild(document.createTextNode("Authorization Code: " + code));
+            } else {
+                document.body.appendChild(document.createTextNode("No authorization code found in the URL."));
+            }
+        }
+    </script>
+</body>
+</html>
